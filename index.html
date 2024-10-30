@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Certificates</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Certificates</h1>
+        <p>Welcome to my portfolio of certificates! Click each certificate to view in larger detail.</p>
+    </header>
+
+    <main class="certificate-gallery">
+        <div class="certificate" onclick="openLightbox('certificate1.jpg')">
+            <img src="images/certificate1.jpg" alt="Certificate 1">
+        </div>
+        <div class="certificate" onclick="openLightbox('certificate2.jpg')">
+            <img src="images/certificate2.jpg" alt="Certificate 2">
+        </div>
+        <div class="certificate" onclick="openLightbox('certificate3.jpg')">
+            <img src="images/certificate3.jpg" alt="Certificate 3">
+        <div class="certificate" onclick="openLightbox('certificate3.jpg')">
+            <img src="images/certificate3.jpg" alt="Certificate 4">
+        <div class="certificate" onclick="openLightbox('certificate3.jpg')">
+            <img src="images/certificate3.jpg" alt="Certificate 5">
+        <div class="certificate" onclick="openLightbox('certificate3.jpg')">
+            <img src="images/certificate3.jpg" alt="Certificate 6">
+        <div class="certificate" onclick="openLightbox('certificate3.jpg')">
+            <img src="images/certificate3.jpg" alt="Certificate 7">
+        <div class="certificate" onclick="openLightbox('certificate3.jpg')">
+            <img src="images/certificate3.jpg" alt="Certificate 8">
+        <div class="certificate" onclick="openLightbox('certificate3.jpg')">
+            <img src="images/certificate3.jpg" alt="Certificate 9">
+        </div>
+    </main>
+
+    <!-- Lightbox for displaying enlarged certificates -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="close">&times;</span>
+        <img id="lightboxImage" class="lightbox-content">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
