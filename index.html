@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badr EL HAFID - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Badr EL HAFID</h1>
+        <h2>Animal Production Engineer</h2>
+    </header>
+
+    <section class="introduction">
+        <h2>What is an Animal Production Engineer?</h2>
+        <p>An Animal Production Engineer applies scientific principles and engineering techniques to enhance livestock management, improve animal health and welfare, and optimize production processes. This role is essential for sustainable agriculture, focusing on innovative practices to ensure food security and environmental sustainability.</p>
+        <img src="images/animal-farm.jpg" alt="Animal Farm" class="landscape-photo">
+    </section>
+
+    <section class="about-me">
+        <h2>About Me</h2>
+        <img src="images/identity-photo.jpg" alt="Badr EL HAFID" class="profile-photo">
+        <p>Welcome to my portfolio! I am passionate about improving livestock management practices and promoting sustainable agricultural systems.</p>
+    </section>
+
+    <section class="certificate-gallery">
+        <h2>My Certificates</h2>
+        <div class="certificate" onclick="openLightbox('images/certificate1.jpg')">
+            <img src="images/certificate1.jpg" alt="Certificate 1">
+            <p>Statistics using R studio</p>
+        </div>
+        <div class="certificate" onclick="openLightbox('images/certificate2.jpg')">
+            <img src="images/certificate2.jpg" alt="Certificate 2">
+            <p>SQL-MySQL</p>
+        </div>
+        <div class="certificate" onclick="openLightbox('images/certificate3.jpg')">
+            <img src="images/certificate3.jpg" alt="Certificate 3">
+            <p>GIS Training</p>
+        </div> <!-- Closed the missing div here -->
+        <div class="certificate" onclick="openLightbox('images/certificate4.jpg')">
+            <img src="images/certificate4.jpg" alt="Certificate 4">
+            <p>Conference Participation</p>
+        </div>
+        <div class="certificate" onclick="openLightbox('images/certificate5.jpg')">
+            <img src="images/certificate5.jpg" alt="Certificate 5">
+            <p>Applied Data Science Lab</p>
+        </div>
+        <div class="certificate" onclick="openLightbox('images/certificate6.jpg')">
+            <img src="images/certificate6.jpg" alt="Certificate 6">
+            <p>Project Management</p>
+        </div>
+        <div class="certificate" onclick="openLightbox('images/certificate7.jpg')">
+            <img src="images/certificate7.jpg" alt="Certificate 7">
+            <p>Quality Management System</p>
+        </div>
+        <div class="certificate" onclick="openLightbox('images/certificate8.jpg')">
+            <img src="images/certificate8.jpg" alt="Certificate 8">
+            <p>Logistics & Supply Chain</p>
+        </div>
+        <div class="certificate" onclick="openLightbox('images/certificate9.jpg')">
+            <img src="images/certificate9.jpg" alt="Certificate 9">
+            <p>LEAN SIX SIGMA</p>
+        </div>
+    </section>
+
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="close">&times;</span>
+        <img id="lightboxImage" class="lightbox-content" alt="Enlarged Certificate">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
